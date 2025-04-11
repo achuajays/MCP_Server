@@ -1,5 +1,5 @@
 # Example Linkedin Profile MCP  
-A simple example of an MCP (Message Command Protocol) server that returns anime titles.  
+A simple example of an MCP (Message Context Protocol) server that returns anime titles.  
 
 ## How to Use  
 This MCP server is configured to return  Linkedin data based on a url.   
