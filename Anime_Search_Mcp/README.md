@@ -8,28 +8,18 @@ This MCP server is configured to return anime titles based on a query.
 ![Example Image](image.png)
 
 
-## Installing MCP and Setting Up the Server  
+## Setting Up the Server  
 To install and run the Anime MCP server, follow these steps:  
 
-### Prerequisites  
-We recommend using **uv** to manage your Python projects.  
+```bash 
+git clone https://github.com/achuajays/MCP_Server.git
+cd MCP_Server/Anime_Search_Mcp
+```
 
-### Setting Up a New `uv`-Managed Project  
-If you haven’t created a `uv`-managed project yet, initialize one with:  
-```sh
-uv init mcp
-cd mcp
-```  
-
-### Installing MCP  
-To add MCP to your project dependencies, run:  
-```sh
-uv add "mcp[cli]"
-```  
-Alternatively, if you use `pip`, install MCP with:  
-```sh
-pip install "mcp[cli]"
-```  
+Create a .env file and set up 
+```bash
+RAPID_API_KEY
+```
 
 ## Running the MCP Server  
 
