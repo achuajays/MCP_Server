@@ -1,19 +1,15 @@
-# Example Anime MCP  
+# Example Linkedin Profile MCP  
 A simple example of an MCP (Message Command Protocol) server that returns anime titles.  
 
 ## How to Use  
-This MCP server is configured to return anime titles based on a query.   
-
-
-![Example Image](image.png)
-
+This MCP server is configured to return  Linkedin data based on a url.   
 
 ## Setting Up the Server  
-To install and run the Anime MCP server, follow these steps:  
+To install and run the Linkedin Profile MCP server, follow these steps:  
 
 ```bash 
 git clone https://github.com/achuajays/MCP_Server.git
-cd MCP_Server/Anime_Search_Mcp
+cd MCP_Server/Linkedin_Profile_Mcp
 ```
 
 Create a .env file and set up 
@@ -26,12 +22,12 @@ RAPID_API_KEY
 ### Installing and Running in Claude Desktop  
 If you're using Claude Desktop, you can install and run the server with:  
 ```sh
-mcp install anime_mcp.py
+mcp install Linkedin_Profile_mcp.py
 ```  
 
 To test the server using the MCP Inspector:  
 ```sh
-mcp dev anime_mcp.py
+mcp dev Linkedin_Profile_mcp.py
 ```  
 
 ### Running the Standalone MCP Development Tools  
@@ -53,7 +49,7 @@ Here’s an example configuration to run the Anime MCP server:
         "mcp[cli]",
         "mcp",
         "run",
-        "D:\\mcp\\anime_mcp.py"
+        "D:\\mcp\\Linkedin_Profile_mcp.py"
       ]
     }
   }
