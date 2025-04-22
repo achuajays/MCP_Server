@@ -9,7 +9,7 @@ mcp = FastMCP("cricbuzz_player_news")
 # API Configuration
 API_BASE = "https://cricbuzz-cricket.p.rapidapi.com"
 HEADERS = {
-    "x-rapidapi-key": "0834a11586msh00a7ad3826ec146p116157jsn7a170941e46f",
+    "x-rapidapi-key": "",
     "x-rapidapi-host": "cricbuzz-cricket.p.rapidapi.com"
 }
 
